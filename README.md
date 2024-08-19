@@ -8,8 +8,8 @@ R: Acredito que seja uma administração das funcionalidades, tecnologias, para 
 3 exemplos de trade-offs (requisitos não funcionais) :
 R: 
 
-1- Desempenho vs. Segurança: Aumentar a segurança, como usar criptografia robusta, pode diminuir o desempenho do sistema devido ao processamento extra necessário.
+1 - Desempenho vs. Segurança: Aumentar a segurança, como usar criptografia robusta, pode diminuir o desempenho do sistema devido ao processamento extra necessário.
 
-2- Escalabilidade vs. Complexidade: Projetar um sistema para escalar facilmente pode aumentar a complexidade do código e a dificuldade de manutenção.
+2 - Escalabilidade vs. Complexidade: Projetar um sistema para escalar facilmente pode aumentar a complexidade do código e a dificuldade de manutenção.
 
-3- Usabilidade vs. Funcionalidade: Adicionar mais funcionalidades pode tornar a interface do usuário mais complexa, afetando a usabilidade e a experiência do usuário.
+3 - Usabilidade vs. Funcionalidade: Adicionar mais funcionalidades pode tornar a interface do usuário mais complexa, afetando a usabilidade e a experiência do usuário.
