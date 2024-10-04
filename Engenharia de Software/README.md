@@ -19,33 +19,33 @@ Arquivo: Animal.java
 
 	// Criando classe publica e definindo os atributos com segurança privada
 	public class Animal {
-	private String raca;
-	private String nome;
-	
-	// Criando construtor publico que atribui valor aos atributos da classe
-	public Animal (String raca, String nome) {
-		this.raca = raca;
-		this.nome = nome;
-	}
-
-	// Criando metodos de acesso e modificação
-	public String getRaca() {
-		return raca;
-	}
-
-	public void setRaca(String raca) {
-		this.raca = raca;
-	}
-
-	public String getNome() {
-		return nome;
-	}
-
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
+		private String raca;
+		private String nome;
 		
-	}
+		// Criando construtor publico que atribui valor aos atributos da classe
+		public Animal (String raca, String nome) {
+			this.raca = raca;
+			this.nome = nome;
+		}
+	
+		// Criando metodos de acesso e modificação
+		public String getRaca() {
+			return raca;
+		}
+	
+		public void setRaca(String raca) {
+			this.raca = raca;
+		}
+	
+		public String getNome() {
+			return nome;
+		}
+	
+		public void setNome(String nome) {
+			this.nome = nome;
+		}
+			
+		}
 
 Arquivo: Petshop.java
 
