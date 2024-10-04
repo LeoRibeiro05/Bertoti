@@ -56,32 +56,32 @@ Arquivo: Petshop.java
   
       // Criando classe Petshop atribuindo um atributo do tipo lista do objeto Animal
   	public class Petshop {
-      // LinkedList é como se fosse um array de objetos
-      private List<Animal> animais = new LinkedList<Animal>();
-      
-      // Criando um método para cadastrar um animal ao petshop
-      public void cadastrarAnimal(Animal animal) {
-          animais.add(animal);
-      }
-      
-      // Criando método para buscar um animal na lista existente de animais do petshop
-      public List<Animal> buscarAnimalPeloNome(String nome) {
-          List<Animal> animaisEncontrados = new LinkedList<Animal>();
-          
-          // Verifica se o nome do animal é igual ao nome fornecido e o adiciona à lista de animais encontrados
-          for(Animal animal : animais) {
-              if(animal.getNome().equals(nome)) {
-                  animaisEncontrados.add(animal);
-              }
-          }
-          return animaisEncontrados;
-      }
-      
-      /* Criando método para retornar uma lista com todos os animais cadastrados */
-      public List<Animal> getAnimais() {
-          return animais;
-      }
-    }
+	      // LinkedList é como se fosse um array de objetos
+	      private List<Animal> animais = new LinkedList<Animal>();
+	      
+	      // Criando um método para cadastrar um animal ao petshop
+	      public void cadastrarAnimal(Animal animal) {
+	          animais.add(animal);
+	      }
+	      
+	      // Criando método para buscar um animal na lista existente de animais do petshop
+	      public List<Animal> buscarAnimalPeloNome(String nome) {
+	          List<Animal> animaisEncontrados = new LinkedList<Animal>();
+	          
+	          // Verifica se o nome do animal é igual ao nome fornecido e o adiciona à lista de animais encontrados
+	          for(Animal animal : animais) {
+	              if(animal.getNome().equals(nome)) {
+	                  animaisEncontrados.add(animal);
+	              }
+	          }
+	          return animaisEncontrados;
+	      }
+	      
+	      /* Criando método para retornar uma lista com todos os animais cadastrados */
+	      public List<Animal> getAnimais() {
+	          return animais;
+	      }
+	    }
   
   Arquivo: TestAnimal.java
 
