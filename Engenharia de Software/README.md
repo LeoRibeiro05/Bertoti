@@ -14,10 +14,11 @@ Vemos três diferenças críticas entre programação e engenharia de software: 
 # Atividade 3
 
 Arquivo: Animal.java
-package atividade3;
 
-// Criando classe publica e definindo os atributos com segurança privada
-public class Animal {
+ 	package atividade3;
+
+	// Criando classe publica e definindo os atributos com segurança privada
+	public class Animal {
 	private String raca;
 	private String nome;
 	
@@ -44,15 +45,17 @@ public class Animal {
 		this.nome = nome;
 	}
 		
-}
+	}
+
 Arquivo: Petshop.java
-  package atividade3;
+
+  	package atividade3;
   
-  import java.util.LinkedList;
-  import java.util.List;
+  	import java.util.LinkedList;
+  	import java.util.List;
   
-  // Criando classe Petshop atribuindo um atributo do tipo lista do objeto Animal
-  public class Petshop {
+      // Criando classe Petshop atribuindo um atributo do tipo lista do objeto Animal
+  	public class Petshop {
       // LinkedList é como se fosse um array de objetos
       private List<Animal> animais = new LinkedList<Animal>();
       
@@ -78,17 +81,19 @@ Arquivo: Petshop.java
       public List<Animal> getAnimais() {
           return animais;
       }
-  }
+    }
+  
   Arquivo: TestAnimal.java
-  package atividade3;
 
-import static org.junit.jupiter.api.Assertions.*;
+	package atividade3;
 
-import java.util.List;
+	import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.Test;
+	import java.util.List;
 
-class TestAnimal {
+	import org.junit.jupiter.api.Test;
+
+	class TestAnimal {
 
 	@Test
 	void test() {
@@ -111,4 +116,4 @@ class TestAnimal {
 		assertEquals(animal.get(0).getRaca(), darlo.getRaca());
 	}
 
-}
+	}	
